@@ -1,0 +1,45 @@
+macro key detection? (and other keys that I can't detect in JS?)
+
+set all keys to be one of the randomly chosen colors (so different colors) or
+set all keys to be the same random color...nm I think I can do this. NM, can't.
+I can if I choose one *distinct* color but can't if I provide a set of colors to
+choose from or more than one distinct color.
+
+for trigger keys, allow a "master" effect that, when it stops, all other effects
+stop as well (wanted to try a color changing bg with a trigger effect on top and
+I think this was for that)
+
+add in full hotkey support so you can trigger effects on key sequences, combos,
+etc
+
+maybe abstract away the idea of a "track" since that might be too much for the
+UI. It's nice on the backend though.
+
+pulse sequence colors from list instead of random
+
+now I want a rainbow background but for it to only be active when the trigger
+effect is active *but* I also want it to effectively start at t = 0 instead of
+when the trigger starts
+
+also using a background on a trigger will effectively erase all previous
+triggers. Need to rethink persist.
+
+If this is the last "frame" of the effect, it's possible that the effect is only
+99% complete because of...numbers. For example, on a pulse in/out, the last
+generated canvas might not be all the way pulsed out, and then that very faded
+color would persist.
+
+effect ideas:
+  clouds
+  mountains/landscape
+  perlin noise
+  game of life
+  text marquee
+  heatmap
+  simple static gradient
+  pulse
+  wave
+  drip
+  lightning
+  spiral
+
